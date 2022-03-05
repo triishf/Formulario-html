@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estudo daos Formularios </title>
+</head>
+<body>
+    <h1> Cadastro de Clientes</h1>
+    <form method="POST" action="#" id="cadastro"> 
+    Nome Completo: <input type="text" name="nome" size="55" placeholder="digite seu nome completo" > <P>
+    Endereço: <input type="text" name="endereco" size="62" placeholder="Rua, Avenida, etc" > <P>
+    Bairro: <input type="text" name="bairro" size="24" placeholder="Digite bairro" > 
+    Cidade: <input type="text" name="cidade" size="24" placeholder="Digite cidade" > 
+    Estado: <select>
+        <option value="---">---</option>
+        <option value="AC">AC</option>
+        <option value="AL">AL</option>
+        <option value="PE">PE</option>
+    </select> <p>
+    Qual é o seu salário? <p>
+        <input type="radio" value="R$ 1.212,00" name="site" >
+        um Salario minimo R$ 1.212,00
+        <input type="radio" value="+ R$1.212,00" name="site" >
+        mais um Salario minimo <p>
+
+            Qual destes sofwares você conheçe?<p>
+            <input type="checkbox" value="vscode"> VScode
+            <input type="checkbox" value="Eclipse"> Eclipse
+            <input type="checkbox" value="PyCharm"> PyCharm <p>
+
+            Realize o anexo do seu currículo:<p>
+            <input type="file"> <p>
+
+            Data de Nascimento: 
+            <input type="date"> <p>
+
+                Digite aqui sua observação: <br>
+                <textarea cols="30" rows="5">
+                 Seu comentario aqui .... 
+
+                </textarea><p>
+                <input type="submit" value="enviar">
+                <input type="submit" value="Limpar dados">
+            
+
+    </form>
+</body>
+</html>
